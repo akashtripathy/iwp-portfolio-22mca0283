@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website with Frame</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: url("./images/background.jpg") no-repeat center center fixed;
+        background-size: cover;
+      }
+
+      #frame-container {
+        width: 80%;
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: #fff;
+      }
+
+      #website-frame {
+        width: 70%;
+        height: 500px;
+        border: none;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: #fff;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: #d131c6; margin: 30px 30px">AKASH TRIPATHY</h1>
+    <div id="frame-container">
+      <iframe id="website-frame" src="./landing.html"></iframe>
+    </div>
+  </body>
+</html>
